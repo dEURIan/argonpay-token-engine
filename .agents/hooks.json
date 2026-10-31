@@ -1,0 +1,11 @@
+{
+  "memory-bank-loader": {
+    "PreInvocation": [
+      {
+        "type": "command",
+        "command": "./.agents/scripts/load-memory.sh",
+        "timeout": 5
+      }
+    ]
+  }
+}
